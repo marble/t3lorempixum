@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'lorempixum'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="lorempixum.pi_flexform.sheet_general">LoremPixum</label>
+			<label index="lorempixum.pi_flexform.category">Category</label>
+			<label index="lorempixum.pi_flexform.abstract">abstract</label>
+			<label index="lorempixum.pi_flexform.animals">animals</label>
+			<label index="lorempixum.pi_flexform.city">city</label>
+			<label index="lorempixum.pi_flexform.food">food</label>
+			<label index="lorempixum.pi_flexform.nightlife">nightlife</label>
+			<label index="lorempixum.pi_flexform.fashion">fashion</label>
+			<label index="lorempixum.pi_flexform.people">people</label>
+			<label index="lorempixum.pi_flexform.nature">nature</label>
+			<label index="lorempixum.pi_flexform.sports">sports</label>
+			<label index="lorempixum.pi_flexform.technics">technics</label>
+			<label index="lorempixum.pi_flexform.transport">transport</label>
+			<label index="lorempixum.pi_flexform.width">width</label>
+			<label index="lorempixum.pi_flexform.height">height</label>
+			<label index="lorempixum.pi_flexform.grey">grey image</label>
+			<label index="lorempixum.pi_flexform.imagecount">How Many Images each Category</label>
+			<label index="lorempixum.pi_flexform.imagenr">Explicit Image, each line a category</label>
+			<label index="lorempixum.pi_flexform.sheet_wrap">Wrap</label>
+			<label index="lorempixum.pi_flexform.default">default extension wrap</label>
+			<label index="lorempixum.pi_flexform.single">wrap for each image</label>
+		</languageKey>
+	</data>
+</T3locallang>

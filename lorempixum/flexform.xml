@@ -1,0 +1,152 @@
+<T3DataStructure>
+	<meta>
+	<langDisable>1</langDisable>
+	<!--  <langChildren>1</langChildren>!-->
+	</meta>
+    <sheets>
+	<sDEF>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.sheet_general</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+          <category>
+			<TCEforms>
+				<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.category</label>
+				<config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="0" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.abstract</numIndex>
+							<numIndex index="1">abstract</numIndex>
+						</numIndex>					
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.animals</numIndex>
+							<numIndex index="1">animals</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.city</numIndex>
+							<numIndex index="1">city</numIndex>
+						</numIndex>
+						<numIndex index="3" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.food</numIndex>
+							<numIndex index="1">food</numIndex>
+						</numIndex>
+						<numIndex index="4" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.nightlife</numIndex>
+							<numIndex index="1">nightlife</numIndex>
+						</numIndex>					
+						<numIndex index="5" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.fashion</numIndex>
+							<numIndex index="1">fashion</numIndex>
+						</numIndex>
+						<numIndex index="6" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.people</numIndex>
+							<numIndex index="1">people</numIndex>
+						</numIndex>
+						<numIndex index="7" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.nature</numIndex>
+							<numIndex index="1">nature</numIndex>
+						</numIndex>						
+						<numIndex index="8" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.sports</numIndex>
+							<numIndex index="1">sports</numIndex>
+						</numIndex>
+						<numIndex index="9" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.technics</numIndex>
+							<numIndex index="1">technics</numIndex>
+						</numIndex>
+						<numIndex index="10" type="array">
+							<numIndex index="0">LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.transport</numIndex>
+							<numIndex index="1">transport</numIndex>
+						</numIndex>
+
+					</items>
+					<maxitems>3</maxitems>
+					<size>10</size>
+					<multiple>10</multiple>
+				</config>
+			</TCEforms>
+		</category>
+		<width>
+			<TCEforms>
+				<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.width</label>
+				<config>
+					<type>input</type>
+					<eval>trim</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</width>
+		<height>
+			<TCEforms>
+				<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.height</label>
+				<config>
+					<type>input</type>
+					<eval>trim</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</height>
+		<grey>
+	      <TCEforms>
+		     <label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.grey</label>
+			 <config>
+			   <type>check</type>
+			 </config>
+		  </TCEforms>  
+		</grey>
+		<imagecount>
+		  <TCEforms>
+				<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.imagecount</label>
+				<config>
+					<type>input</type>
+					<eval>num</eval>
+					<checkbox></checkbox>
+					<size>3</size>
+				</config>
+				</TCEforms>
+		</imagecount>
+		<imagenr>
+				<TCEforms>
+					<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.imagenr</label>
+					<config>
+						<type>text</type>
+						<cols>80</cols>
+						<rows>10</rows>
+					</config>
+				</TCEforms>
+		</imagenr>
+		</el>
+	</ROOT>
+	</sDEF>	
+	<WRAP>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.sheet_wrap</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+		<default>
+	      <TCEforms>
+		     <label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.default</label>
+			 <config>
+			   <type>check</type>
+			 </config>
+		  </TCEforms>  
+		</default>
+        <single>
+		  <TCEforms>
+			<label>LLL:EXT:lorempixum/locallang_tca.xml:lorempixum.pi_flexform.single</label>
+			<config>
+			  <default>|</default>
+			  <type>input</type>
+		    </config>
+		  </TCEforms>
+		</single>
+		</el>
+	</ROOT>
+	</WRAP>	
+</sheets>
+</T3DataStructure>
